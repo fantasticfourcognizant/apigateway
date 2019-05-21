@@ -1,13 +1,13 @@
 User Model
 
-1) Login API - https://boiling-ravine-30399.herokuapp.com/login
+1) Login API - https://apigatewayff.herokuapp.com/api/user/login
 
     body {
             email:
             password:
         }
 
-2) SignUp API - https://boiling-ravine-30399.herokuapp.com/signup
+2) SignUp API - https://apigatewayff.herokuapp.com/api/user/signup
 
     body {
                 email:
