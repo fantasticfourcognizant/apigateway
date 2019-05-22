@@ -15,42 +15,51 @@ User Model
                 firstName:
                 lastName:
             }
+3) Reset Password API - https://apigatewayff.herokuapp.com/api/user/resetpassword
 
+    body {
+            email:
+            password:
+        }
 
 Movie Model
 
-1) Search Movie By Title API - https://rocky-coast-55722.herokuapp.com/movie/title
+1) Search Movie By Title API - https://apigatewayff.herokuapp.com/api/movie/movie/title
 
     param : title (string)
 
-2) Get All Movie API - https://rocky-coast-55722.herokuapp.com/allmovies
+2) Get All Movie API - https://apigatewayff.herokuapp.com/api/movie/allmovies
 
     param: None
 
-3) Get Movie by Year API - https://rocky-coast-55722.herokuapp.com/movie/year
+3) Get Movie by Year API - https://apigatewayff.herokuapp.com/api/movie/movie/year
 
     param: None
 
-4) Add new Movie API - https://rocky-coast-55722.herokuapp.com/addmovie
+4) Add new Movie API - https://apigatewayff.herokuapp.com/api/movie/addmovie
 
 
 Review Model
 
-1) Search Review By userId API - https://rocky-coast-55722.herokuapp.com/reviewbyuserid
+1) Search Review By userId API - https://apigatewayff.herokuapp.com/api/review/reviewbyuserid
 
     param : userId
 
-2) Get All Reviews API - https://rocky-coast-55722.herokuapp.com/allreviews
+2) Get All Reviews API - https://apigatewayff.herokuapp.com/api/review/allreviews
 
     param: None
 
-3) Get Movie by movieId API - https://rocky-coast-55722.herokuapp.com/reviewbymovieid
+3) Get Reviews by movieId API - https://apigatewayff.herokuapp.com/api/review/reviewbymovieid
 
     param: movieId
 
-4) Add new Review API - https://rocky-coast-55722.herokuapp.com/addmovie
+4) Add new Review API - https://apigatewayff.herokuapp.com/api/review/addreview
 
     param1: reviewBody (string)
     param2: reviewTitle (string)
     param3: movieId
     param4: userId
+
+5) Delete Review by reviewId API - https://apigatewayff.herokuapp.com/api/review/deletereview
+
+    param: reviewId
